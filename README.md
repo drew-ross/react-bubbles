@@ -73,7 +73,7 @@ The MVP of this project will be broken up between 2 stages. Follow each step.
 
 Build a login form to authenticate your users.
 
-- [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
+- [X] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
 - [X] Save the token to localStorage
 - [X] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
 - [X] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
